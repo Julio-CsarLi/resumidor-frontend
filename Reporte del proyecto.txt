@@ -1,0 +1,5 @@
+Reporte del proyecto
+
+El objetivo de este proyecto fue desarrollar una aplicación web full-stack y segura que permita a los usuarios generar resúmenes de texto utilizando inteligencia artificial.
+
+Este proyecto se hizo en dos partes el Frontend (interfaz de usuario) del Backend (lógica del servidor). El sistema final permite a los usuarios crear una cuenta, iniciar sesión de forma segura y acceder a una herramienta protegida que se comunica con la API de Google (Gemini) para obtener resúmenes.
