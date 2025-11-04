@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Crea un resumen con IA</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container app-container">
+        <button id="logout-button" class="btn-logout">Cerrar Sesión</button>
+        <h2>Crea tu Resumen de Texto con IA</h2>
+        <p>Pega tu texto y crea un resumen.</p>
+        
+        <textarea id="text-input" rows="10" placeholder="Pega tu texto aquí..."></textarea>
+        <button id="summarize-button">Generar resumen</button>
+        
+        <h3>Resumen Generado:</h3>
+        <div id="summary-output" class="result-box">
+             <p id="loading-message" class="hidden">Generando resumen, espera un momento...</p>
+        </div>
+    </div>
+
+    <script src="config.js"></script>
+    <script src="main.js"></script>
+</body>
+</html>
